@@ -1,0 +1,217 @@
+{
+  "caroussel": [{
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/banner2.jpg",
+      "alt": "Slider Spiccy Food"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/banner1.jpg",
+      "alt": "Slider Spiccy Food"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/banner3.jpg",
+      "alt": "Slider Spiccy Food"
+    }
+  ],
+  "about": [{
+      "title": "100% Natural Fresh Ingredients"
+    },
+    {
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+    },
+    {
+      "phone": "55 011 01015566"
+    }
+  ],
+  "features": [{
+      "numberitem": "01",
+      "subtitle": "Large Parking",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "numberitem": "02",
+      "subtitle": "Many Variations",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "numberitem": "03",
+      "subtitle": "Good Taste",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "numberitem": "04",
+      "subtitle": "fresh pizzas",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    }
+  ],
+  "productitem": [{
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/products_1.png",
+      "alt": "Special Hamburger",
+      "title": "Special Hamburger",
+      "cost": "35.00"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/products_2.png",
+      "alt": "Monster Hot Dog",
+      "title": "Monster Hot Dog",
+      "cost": "55.00",
+      "oldcost": "48,00"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/products_3.png",
+      "alt": "Chicken Lunch",
+      "title": "Chicken Lunch",
+      "cost": "35.00",
+      "oldcost": "30,00"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/products_4.png",
+      "alt": "Complete Lunch",
+      "title": "Complete Lunch",
+      "cost": "20.00",
+      "oldcost": "15,00"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/products_6.png",
+      "alt": "Delicious Nuggets",
+      "title": "Delicious Nuggets",
+      "cost": "10.00",
+      "oldcost": "5,00"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/products_7.png",
+      "alt": "Cup Cakes",
+      "title": "Cup Cakes",
+      "cost": "60.00",
+      "oldcost": "50,00"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/products_8.png",
+      "alt": "Japanese Food",
+      "title": "Japanese Food",
+      "cost": "10.00",
+      "oldcost": "7,00"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/products_9.png",
+      "alt": "Milk Shake",
+      "title": "Milk Shake",
+      "cost": "10.00",
+      "oldcost": "8,00"
+    }
+  ],
+  "services": [{
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/icon-foods.png",
+      "alt": "Delicious Foods",
+      "title": "Delicious Foods",
+      "description": " we provide best and fresh quality foods. We also gives your reuired signature dishes"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/icon-events.png",
+      "alt": "Lobster Bisque",
+      "title": "Events",
+      "description": "we provide best and fresh quality foods. We also gives your reuired signature dishes"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/icon-order.png",
+      "alt": "Order whit App",
+      "title": "Buy for App",
+      "description": "we provide best and fresh quality foods. We also gives your reuired signature dishes"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/icon-delivery.png",
+      "alt": "Fast Delivery",
+      "title": "Fast Delivery",
+      "description": "we provide best and fresh quality foods. We also gives your reuired signature dishes"
+    }
+  ],
+  "sectionchefs": [{
+    "title": "Meet our Chef",
+    "description": "Lorem Ipsum is simply dummy text"
+  }],
+  "chefs": [{
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/chef-01.jpg",
+      "alt": "John Connor",
+      "title": "John Connor",
+      "subtitle": "Executive Chief",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/chef-02.jpg",
+      "alt": "Joanna Dark",
+      "title": "Joanna Dark",
+      "subtitle": " Chief",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/chef-03.jpg",
+      "alt": "Ellen Ripley",
+      "title": "Ellen Ripley",
+      "subtitle": "Executive Chief",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    }
+  ],
+  "sectiongallery": [{
+    "title": "Our Gallery",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+  }],
+  "galleryitem": [{
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/gallery/1.jpg",
+      "alt": "Crystalline",
+      "title": "Crystalline"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/gallery/5.jpg",
+      "alt": "Cacophony",
+      "title": "Cacophony"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/gallery/6.jpg",
+      "alt": "Languid",
+      "title": "Languid"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/gallery/7.jpg",
+      "alt": "Serene",
+      "title": "Serene"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/gallery/8.jpg",
+      "alt": "Lobster Bisque",
+      "title": "Nebulus"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/gallery/9.jpg",
+      "alt": "Nebulus",
+      "title": "Tridescent"
+    }
+  ],
+  "testemonials": [{
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/testemonials/1.jpg",
+      "alt": "Joanna Dark",
+      "title": "Joanna Dark",
+      "subtitle": "Design manager",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum has been the industry's standard dummy text ever since"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/testemonials/2.jpg",
+      "alt": "Marlene",
+      "title": "Marlene",
+      "subtitle": " Count Executive",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum has been the industry's standard dummy text ever since"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/testemonials/3.jpg",
+      "alt": "John Mclaine",
+      "title": "John Mclaine",
+      "subtitle": "Businessman",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    },
+    {
+      "img": "http://www.wagneramos.com.br/teste/products-spicy/testemonials/4.jpg",
+      "alt": "Mary Jane",
+      "title": "Mary Jane",
+      "subtitle": "Interiors Design",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum has been the industry's standard dummy text ever since"
+    }
+  ]
+}

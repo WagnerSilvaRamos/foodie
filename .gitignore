@@ -93,3 +93,6 @@ sw.*
 yarn.lock
 package-lock.json
 .editorconfig
+
+functions
+firebase.json

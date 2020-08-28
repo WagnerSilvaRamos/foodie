@@ -1,9 +1,9 @@
 <template>
   <section id="why_choose" class="why_choose">
     <div class="container-fluid">
-      <div class="heading_wrapper wow fadeInDown animated">
-        <h2 class="wow fadeInDown animated">{{ featureHeader.title }}</h2>
-        <p class="wow fadeInDown animated">{{ featureHeader.description }}</p>
+      <div class="heading_wrapper">
+        <h2>{{ featureHeader.title }}</h2>
+        <p>{{ featureHeader.description }}</p>
       </div>
 
       <div class="row">
@@ -12,7 +12,7 @@
           v-for="item in features"
           :key="item.numberitem"
         >
-          <div class="why_choose_sign_box wow fadeInDown animated">
+          <div class="why_choose_sign_box">
             <div class="sign_box_cont">
               <span class="cont_number"> {{ item.numberitem }}</span>
               <h4>{{ item.subtitle }}</h4>
@@ -26,7 +26,7 @@
 </template>
 
 <script>
-let urlFeatures = "http://localhost:3004/features";
+let urlFeatures = "https://foodie-bed54.firebaseio.com//features.json";
 const axios = require("axios");
 
 export default {

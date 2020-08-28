@@ -1,5 +1,5 @@
 <template>
-  <div style="margin: 0 auto; max-width:100%">
+  <div>
     <div class="preloader">
       <div class="status pulse">&nbsp;</div>
     </div>

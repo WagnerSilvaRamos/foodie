@@ -31,7 +31,7 @@
 </template>
 
 <script>
-let url = "http://localhost:3004/services";
+let url = "https://foodie-bed54.firebaseio.com/services.json";
 const axios = require("axios");
 
 export default {

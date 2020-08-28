@@ -2,9 +2,9 @@
   <div>
     <div id="menu" class="products_section bg_images">
       <div class="container-fluid">
-        <div class="heading_wrapper wow fadeInDown animated">
+        <div class="heading_wrapper">
           <h2 data-aos="fade-down">{{ menu.title }}</h2>
-          <p class="wow fadeInDown animated">{{ menu.description }}</p>
+          <p>{{ menu.description }}</p>
         </div>
 
         <div class="row">
@@ -21,7 +21,6 @@
                     <div class="image">
                       <a href="#"
                         ><img
-                          class="wow fadeInDown animated"
                           :src="product.img"
                           :alt="product.alt"
                           title="products Spicy Food"
@@ -32,10 +31,10 @@
                     </div>
                     <div class="caption">
                       <div class="rate-and-title">
-                        <h4 class="wow fadeInDown animated">
+                        <h4>
                           <a href="#">{{ product.title }}</a>
                         </h4>
-                        <div class="rating wow fadeInDown animated">
+                        <div class="rating">
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star-o"></i>
@@ -43,13 +42,13 @@
                           <i class="fa fa-star-o"></i>
                           <div class="clear"></div>
                         </div>
-                        <p class="price wow fadeInDown animated">
+                        <p class="price">
                           <span class="price-old">${{ product.oldcuts }}</span>
                           <span class="price-new">${{ product.cost }}</span>
                         </p>
                         <button
                           type="button"
-                          class="btn wow fadeInDown animated"
+                          class="btn"
                           title="Order Now"
                           data-toggle="modal"
                           data-target="#exampleModalCenter"
@@ -152,7 +151,7 @@
 </template>
 
 <script>
-let urlProdutos = "http://localhost:3004/productitem";
+let urlProdutos = "https://foodie-bed54.firebaseio.com/productitem.json";
 const axios = require("axios");
 
 export default {

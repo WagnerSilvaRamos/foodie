@@ -1,7 +1,7 @@
 <template>
   <section id="gallery" class="gallery clearfix">
     <div class="container-fluid">
-      <div class="heading_wrapper wow fadeInDown animated">
+      <div class="heading_wrapper">
         <h2 data-aos="zoom-in">{{ sectiongallery.title }}</h2>
         <p>{{ sectiongallery.description }}</p>
       </div>
@@ -36,7 +36,7 @@
 </template>
 
 <script>
-let url = "http://localhost:3004/galleryitem";
+let url = "https://foodie-bed54.firebaseio.com/galleryitem.json";
 const axios = require("axios");
 
 export default {

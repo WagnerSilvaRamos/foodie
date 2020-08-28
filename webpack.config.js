@@ -1,20 +1,19 @@
-var path = require('path');
-var webpack = require('webpack');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var CleanWebpackPlugin = require('clean-webpack-plugin');
-var PackageLoadersPlugin = require('webpack-package-loaders-plugin')
+var path = require("path");
+var webpack = require("webpack");
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+var CleanWebpackPlugin = require("clean-webpack-plugin");
+var PackageLoadersPlugin = require("webpack-package-loaders-plugin");
 
 var extractPlugin = new ExtractTextPlugin({
-  filename: 'main.css'
+  filename: "main.css"
 });
 
 module.exports = {
-  entry: './pages/index.vue',
+  entry: "./pages/index.vue",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    // publicPath: '/dist'
+    path: __dirname + "/dist",
+    filename: "index_bundle.js"
   },
   module: {
     rules: [
@@ -22,9 +21,9 @@ module.exports = {
         test: /\.js$/,
         use: [
           {
-            loader: 'babel-loader',
+            loader: "babel-loader",
             options: {
-              presets: ['es2015']
+              presets: ["es2015"]
             }
           }
         ]
@@ -32,22 +31,22 @@ module.exports = {
       {
         test: /\.scss$/,
         use: extractPlugin.extract({
-          use: ['css-loader', 'sass-loader']
+          use: ["css-loader", "sass-loader"]
         })
       },
       {
         test: /\.html$/,
-        use: ['html-loader']
+        use: ["html-loader"]
       },
       {
         test: /\.(jpg|png)$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: "file-loader",
             options: {
-              name: '[name].[ext]',
-              outputPath: 'img/',
-              publicPath: 'img/'
+              name: "[name].[ext]",
+              outputPath: "img/",
+              publicPath: "img/"
             }
           }
         ]
@@ -57,18 +56,14 @@ module.exports = {
   plugins: [
     new PackageLoadersPlugin(),
     extractPlugin,
-    new HtmlWebpackPlugin({
-      template: 'pages/index.vue'
+    new HtmlWebpackPlugin(),
+    new webpack.LoaderOptionsPlugin({
+      minimize: true,
+      debug: false,
+      options: {
+        context: __dirname
+      }
     }),
-
-
-  new webpack.LoaderOptionsPlugin({
-    minimize: true,
-    debug: false,
-    options: {
-      context: __dirname
-    }
-  }),
-    new CleanWebpackPlugin(['dist'])
-]
+    new CleanWebpackPlugin(["dist"])
+  ]
 };

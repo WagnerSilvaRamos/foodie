@@ -23,7 +23,7 @@
 </template>
 
 <script>
-let url = "http://localhost:3004/caroussel";
+let url = "https://foodie-bed54.firebaseio.com/caroussel.json";
 const axios = require("axios");
 
 export default {

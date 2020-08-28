@@ -16,7 +16,7 @@
               data-aos="flip-left"
             >
               <div class="col-sm-12 col-xs-3">
-                <div class="our-chef wow fadeInLeft">
+                <div class="our-chef">
                   <div class="our-chef_img">
                     <img :src="chef.img" :alt="chef.alt" />
                   </div>
@@ -42,7 +42,7 @@
 </template>
 
 <script>
-let url = "http://localhost:3004/chefs";
+let url = "https://foodie-bed54.firebaseio.com/chefs.json";
 const axios = require("axios");
 
 export default {

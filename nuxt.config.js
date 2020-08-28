@@ -61,8 +61,6 @@ export default {
           "https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js",
         type: "text/javascript"
       },
-      { src: "wow-animate.js", type: "text/javascript" },
-
       {
         src:
           "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js",
@@ -100,6 +98,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
+
   modules: [
     // Doc: https://bootstrap-vue.js.org
     "bootstrap-vue/nuxt",
@@ -130,15 +129,24 @@ export default {
   proxy: {
     "/api/": "http://www.wagneramos.com.br/api.json"
   },
+
+
 */
   server: {
     port: 3000, // default: 3000
     host: "0.0.0.0" // default: localhost
   },
+
   /*
    ** Build configuration
    */
   build: {
+    extractCSS: true,
+    target: "static",
+    router: {
+      base: "/foodie-public/"
+    },
+    //publicPath: "http://www.wagneramos.com.br/clients/foodie",
     /*
      ** You can extend webpack config here
      */
